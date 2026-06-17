@@ -5,8 +5,6 @@ services:
   app:
     image: mcr.microsoft.com/devcontainers/base:ubuntu
     command: tail -f /dev/null 
-    volumes:
-      - .:/workspace:cached
 
   pgadmin:
     image: dpage/pgadmin4:8.9
